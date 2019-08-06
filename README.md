@@ -2,7 +2,7 @@
 
 #### LC505 Modbus is a library that help to connect to LC-505 calibrator.
 
-#### Add Presys.LC505.Modbus.dll into the project. The library uses .NET Framework 4.6.1. If necessary download and install it from https://www.microsoft.com/en-us/download/details.aspx?id=49981
+#### Add Presys.LC505.Modbus.dll and Modbus.dll into the project. The library uses .NET Framework 4.6.1. If necessary download and install it from https://www.microsoft.com/en-us/download/details.aspx?id=49981
 
 #### See the code below to use the library. Supposing that COM port is COM1 and modbus address is 1 (first and second arguments. The others arguments ("5", "0", "1", "0", "500", "50") should not be changed). The device must be in EXEC mode:
 
